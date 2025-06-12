@@ -2,9 +2,6 @@
 const dotenv = require("dotenv")
 const path = require("path")
 
-// Cargar variables de entorno desde el archivo .env
-dotenv.config({ path: path.resolve(__dirname, "../.env") })
-
 module.exports = {
   port: process.env.PORT,
   dbConfig: {
