@@ -1,10 +1,10 @@
 const mysql = require('mysql2/promise');
 
 const db = mysql.createPool({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'sgit'
+  host: "sgit.mysql.database.azure.com",
+  user: "useradmin",
+  password: "Sgit.2025",
+  database: "sgit"
 });
 
 // Prueba de conexión
