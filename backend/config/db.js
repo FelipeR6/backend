@@ -3,10 +3,10 @@ const util = require("util")
 
 // Configuración de la conexión a la base de datos
 const pool = mysql.createPool({
-  host: "sgit.mysql.database.azure.com",
-  user: "useradmin",
-  password: "Sgit.2025",
-  database: "sgit"
+  host: "localhost",
+  user: "root",
+  password: "",
+  database: "sgit",
 })
 
 // Promisify para usar async/await con mysql
